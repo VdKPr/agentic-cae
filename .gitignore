@@ -1,0 +1,29 @@
+# Environments and secrets
+.env
+*.env
+.venv*/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Data (download locally; see data/README.md)
+data/*
+!data/README.md
+
+# Large simulation outputs
+*.xdmf
+*.h5
+*.vtu
+*.pvd
+*.bp/
+*.msh
+*.pth
+*.pt
+results/large/
+
+# Scratch
+_scratch/
